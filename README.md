@@ -1,28 +1,20 @@
 # Amazon Sarcasm Detector 🛒🤖
 
-This project aims to classify sarcasm in Amazon product reviews using Natural Language Processing (NLP) and Machine Learning.  
-It leverages **PySpark** for large-scale text processing and **Scikit-learn** for classification.
+This project aims to detect sarcasm in Amazon product reviews using **Natural Language Processing (NLP)** and **Machine Learning**.
 
-## 🚀 Features
-- Uses pre-existing Kaggle datasets for Amazon reviews
-- Cleans and preprocesses text data
-- Applies NLP techniques (TF-IDF, sentiment analysis, etc.)
-- Uses Machine Learning (Naive Bayes, Logistic Regression, or LLMs)
-- Can be deployed as a simple API or web app using **FastAPI / Streamlit**
+## Features
+- Uses Kaggle's **Amazon Fine Food Reviews** dataset
+- Cleans and preprocesses text
+- Applies **Naive Bayes** for sarcasm classification
+- Achieves **88.04% accuracy**
 
----
-
-## 🏃‍♂️ Quick Start
+## Quick Start 🚀
 ```bash
-# Clone the repository
 git clone https://github.com/Nut-ell/amazon-sarcasm-detector.git
 cd amazon-sarcasm-detector
-
-# Install dependencies
 pip install -r requirements.txt
 
-# Train the sarcasm detection model
-python train_model.py  
-
-# Run API or web app
-python app.py   
+python preprocess.py
+python label_sarcasm.py
+python train_model.py
+  
