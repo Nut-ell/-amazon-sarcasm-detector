@@ -1,0 +1,10 @@
+---
+
+## **✅ 2️⃣ `.gitignore` を追加**
+GitHub に **不要なファイル（データセット & 学習済みモデル）** を上げないようにする👇
+```gitignore
+dataset/
+model/
+__pycache__/
+*.csv
+*.pkl
