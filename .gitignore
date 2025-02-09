@@ -1,0 +1,6 @@
+dataset/
+model/
+__pycache__/
+*.csv
+*.pkl
+*.sqlite
